@@ -78,3 +78,60 @@
 ```bash
   56 git reflog
 ```
+# Second part
+## Exercise 1
+```bash
+2 git checkout ft/new-feature        
+   3 git branch ft/new-feature
+   4 git checkout ft/new-feature 
+
+```
+## Exercise 2
+```bash
+ 5 git add feature.txt
+ 6 git commit -m "Implemented core... 
+ ```
+ ## Exercise 3
+
+ ```bash
+7 git checkout main
+   8 git add readme.txt
+   9 git commit -m "Updated project ...
+```
+
+## Exercise 4
+Done
+## Exercise 5
+```bash
+  11 git checkout ft/new-feature        
+  12 git add newfile.txt
+  13 git commit -m "Some changes on ... 
+  14 git checkout main
+  15 git merge ft/new-feature
+  16 git branch -d ft/new-feature 
+```
+## Exercise 6
+```bash
+ 18 git checkout -b ft/new-branch 3... 
+```
+## Exercise 7
+```bash
+  22 git checkout main
+  23 git merge ft/new-branch
+```
+## Exercise 8
+```bash
+  25 git add test1.md
+  26 git commit -m "Tried merging by... 
+  27 git checkout main
+  28 git rebase ft/new-branch
+```
+
+## Exercise 9
+```bash
+  31 git branch -m ft/new-branch ft/... 
+```
+## Exercise 10
+```bash
+  34 git checkout 3e7bd07
+```
