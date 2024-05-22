@@ -77,7 +77,7 @@
   ## Exercise 10
 ```bash
   56 git reflog
-```
+
 # Second part
 ## Exercise 1
 ```bash
@@ -134,4 +134,6 @@ Done
 ## Exercise 10
 ```bash
   34 git checkout 3e7bd07
+```
+=======
 ```
